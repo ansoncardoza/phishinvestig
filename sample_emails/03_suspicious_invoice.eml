@@ -1,0 +1,32 @@
+From: Billing Department <billing@example.org>
+Reply-To: payments@example.net
+To: Finance Team <finance@example.net>
+Subject: Outstanding Invoice - Immediate Review
+Date: Mon, 23 Nov 2026 09:30:00 +0000
+Message-ID: <invoice-001@example.org>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="phishinvestig-boundary"
+
+--phishinvestig-boundary
+Content-Type: text/plain; charset="utf-8"
+
+Dear Finance Team,
+
+An outstanding invoice requires your attention.
+
+Please review the payment information:
+https://invoice-review.example.net/document
+
+The attached invoice is provided for reference.
+
+Regards,
+Billing Department
+
+--phishinvestig-boundary
+Content-Type: application/pdf
+Content-Disposition: attachment; filename="invoice_2026.pdf"
+Content-Transfer-Encoding: base64
+
+U3ludGhldGljIGF0dGFjaG1lbnQgZGF0YSBmb3IgUEhJU0hJTkdFVElH
+
+--phishinvestig-boundary--
